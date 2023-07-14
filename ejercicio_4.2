@@ -1,0 +1,31 @@
+Algoritmo ejercicio_4
+	
+	definir producto Como Caracter
+	definir precio Como Real
+	definir i, acomuPrecio Como Entero
+	
+	acomuPrecio = 0
+	
+	
+	
+	para i = 1 hasta 5 con paso 1 Hacer
+		Escribir "Ingrese el nombre del producto #", i
+		leer producto
+		Escribir "Ingrese el precio del producto #", i
+		Leer precio
+		
+		
+		acomuPrecio = acomuPrecio + precio
+		
+		
+	FinPara
+	
+	
+	Mostrar "precio sin iva:", acomuPrecio
+	Mostrar "iva:", acomuPrecio * 0.19
+	Mostrar "con iva:", acomuPrecio + acomuPrecio * 0.19
+	
+	
+	
+	
+FinAlgoritmo
